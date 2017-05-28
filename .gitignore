@@ -1,0 +1,11 @@
+pynb_checkpoints/
+**/*.log
+**/*.fls
+**/*.fdb_latexmk
+**/*.synctex.gz
+**/*.aux
+**/*.toc
+**/*.out
+**/*.bbl
+**/*.blg
+*.out
