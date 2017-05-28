@@ -20,8 +20,21 @@
 % -------
 \pagenumbering{arabic}% Arabic page numbers (and reset to 1)
 \include{1-index}
-\include{2-technicalReport}
 
+\section{Introducción}
+\input{intro.tex}
+
+\section{Diagnóstico y objetivos}
+\include{diagnostico.tex}
+
+\section{Metodología}
+\include{metodologia.tex}
+
+\section{Análisis de los resultados}
+\include{analisis.tex}
+
+\section{Conclusiones}
+\include{conclusiones.tex}
 
 % References
 % ----------
@@ -37,4 +50,4 @@
 \input{3-essay}
 
 \newpage
-\includepdf[pages=-]{docs/log.pdf}
+% \includepdf[pages=-]{docs/log.pdf}
