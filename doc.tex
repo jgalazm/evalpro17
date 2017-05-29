@@ -15,7 +15,7 @@
 % --------
 \pagenumbering{gobble}% Remove page numbers (and reset to 1)
 \include{0-resume}  % Abstract
-
+\include{resumen_ex}
 
 % Indexes
 % -------
@@ -38,14 +38,16 @@
 \label{analisis}
 \input{analisis.tex}
 
+\newpage
 \section{Conclusiones}
 \label{conclusiones}
 \input{conclusiones.tex}
 
 % References
 % ----------
+\newpage
 \renewcommand\bibsection{\section{\refname}}
-\bibliographystyle{alpha}
+\bibliographystyle{unsrt}
 \bibliography{references}
 
 
@@ -322,6 +324,38 @@ Respecto del diseño de la alcuza que le mostré: no le gustó el diseño, no es
 \caption{VAN al variar la cantidad de alcuzas no tradicionales con las que comparte estante, lo que se traduce en una variación de la participación de mercado.}
 \label{GraficoSensibilidad1}
 \end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.]{VANvsPrecio1.png}
+\caption{VAN vs precio, perfil de demanda 1}
+\label{VANvsPrecio1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.]{VANvsPrecio2.png}
+\caption{VAN vs precio, perfil de demanda 2}
+\label{VANvsPrecio2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.]{VANvsTasa1.png}
+\caption{VAN vs tasa de descuento, perfil de demanda 1}
+\label{VANvsTasa1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.]{VANvsTasa2.png}
+\caption{VAN vs tasa de descuento, perfil de demanda 2}
+\label{VANvsTasa2}
+\end{figure}
+
+
+
 
 \section{Análisis de flexibilidad}
 \begin{figure}[H]

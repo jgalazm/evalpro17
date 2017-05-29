@@ -106,9 +106,9 @@ Para estudiar la demanda de clientes tipo 1 se propusieron dos metodologías, la
 Para comenzar se realizará una estimación de la cantidad de hogares que existen en la RM.  Para ello se obtuvo un estimado de la población de la región y la cantidad de personas promedio por hogar, como se detalla a continuación.
 
 
-Se obtuvo la población de los años 2017 a 2020 en las proyecciones del INE a partir del CENSO del año 2002. (INE, CHILE: Proyecciones y Estimaciones de Población. 1990-2020. País y Regiones, a partir del CENSO del 2002. p.74. Disponible en: \url{http://palma.ine.cl/demografia/menu/EstadisticasDemograficas/DEMOGRAFIA.pdf})
+Se obtuvo la población de los años 2017 a 2020 en las proyecciones del INE a partir del CENSO del año 2002  \cite{ine1}.
 
-Se determinó el número de personas por hogar  según el CENSO del año 2002, el cual indica que en la Región Metropolitana este número es aproximadamente 3,75 (INE, CENSO 2002, Volumen II “Personas, viviendas y hogares”, p.138, Disponible en: \url{http://www.ine.cl/canales/usuarios/cedoc_online/censos/pdf/censo_2002_volumen_II.pdf}). Se asumirá que este número es constante.
+Se determinó el número de personas por hogar  según el CENSO del año 2002, el cual indica que en la Región Metropolitana este número es aproximadamente 3,75 \cite{ine2}. Se asumirá que este número es constante.
 
 Con lo anterior se determinó la cantidad de hogares con la siguiente expresión:
 
@@ -142,7 +142,7 @@ S_t=(P+Q(\frac{Y_{t-1}}{M}))(M-Y_{t-1}).
 Donde $P_t$ es la citada probabilidad, $Y_{t-1} $ en número de compradores servidos hasta $t$ (o número de compradores acumulados en $t-1$) y $P$, $Q$ y $M$ son parámetros. Dado que $Y_0=0$, se cumple que $P_1=P$, es decir, $P$ es el parámetro que recoge el impacto inicial de la innovación, ya que determina la probabilidad de compra cuando todavía no existen usuarios previos; se denomina tasa de innovación. El parámetro $M$ expresa la población de potenciales usuarios del producto y se supone constante. Por lo tanto, $\frac{Y_{t-1}}{M}$ es la fracción de saturación del mercado en el período $t$. El parámetro $Q$ refleja el impacto de los usuarios previos sobre la probabilidad de compra y se denomina tasa de imitación o de difusión.
 
 
-Referencias bibliográficas \url{https://books.google.cl/books?id=aj7wABSD7-MC&pg=PA102&dq=modelo+de+bass+marketing&hl=es&sa=X&ved=0ahUKEwj6tfrf8pPUAhVFvZAKHZaUDP8Q6AEIIDAA#v=onepage&q=modelo%20de%20bass%20marketing&f=false} indican que el valor medio de $P$ está en torno a 0,02; mientras que el valor de $Q$ oscila entre 0,4 y 0,5. Por ello los parámetros utilizados para los cálculos fueron $P=0.02$ y $Q=0.45$ . El parámetro $M$ fue determinado como la cantidad de población que no posee una alcuza en su casa, esto se calculó con el porcentaje de personas que poseen alcuza en su casa (57.9\%, dato obtenido de la encuesta realizada), la predicción de la población de la región para los próximos 3 años y la probabilidad de comprar una alcuza (28\%,dato obtenido de la encuesta realizada). A continuación, se muestra la expresión para calcular el parámetro $M$.
+Referencias bibliográficas \cite{aleman2007estrategias} indican que el valor medio de $P$ está en torno a 0,02; mientras que el valor de $Q$ oscila entre 0,4 y 0,5. Por ello los parámetros utilizados para los cálculos fueron $P=0.02$ y $Q=0.45$ . El parámetro $M$ fue determinado como la cantidad de población que no posee una alcuza en su casa, esto se calculó con el porcentaje de personas que poseen alcuza en su casa (57.9\%, dato obtenido de la encuesta realizada), la predicción de la población de la región para los próximos 3 años y la probabilidad de comprar una alcuza (28\%,dato obtenido de la encuesta realizada). A continuación, se muestra la expresión para calcular el parámetro $M$.
 
 \begin{equation*}
 M=0,579\times 0,28 \times \mbox{Población de la región predicha para dicho año}
@@ -211,7 +211,7 @@ Sin embargo, el modelo planteado debe implementar ciertas restricciones que se d
 \end{itemize}
 
 
-En segundo lugar se determinó el porcentaje de costo sobre ingresos. Para este cálculo se utilizó el estado financiero de la tienda Fababella 2016 ( p102 memoria anual 2016, estados financieras falabella, disponible en: \url{http://www.svs.cl/sitio/aplic/serdoc/ver_sgd.php?s567=15fa2b0ff7051c9c6a3368335e460577VFdwQmVFNTZRVEJOUkVFeVRXcFpNRTFSUFQwPQ==&secuencia=-1&t=1494214250}). En ella se muestra un de actividades ordinaria de 7.898.301.784 y un costo de ventas de 5.180.719.944, con lo que se obtiene que el costo de venta es el 66\% del ingreso por actividades ordinarias. Por lo tanto, el 66\% del precio óptimo de venta en retail es
+En segundo lugar se determinó el porcentaje de costo sobre ingresos. Para este cálculo se utilizó el estado financiero de la tienda Fababella 2016 \cite{falabella}. En ella se muestra un de actividades ordinaria de 7.898.301.784 y un costo de ventas de 5.180.719.944, con lo que se obtiene que el costo de venta es el 66\% del ingreso por actividades ordinarias. Por lo tanto, el 66\% del precio óptimo de venta en retail es
 \$$14.175 \times 0.66=\$9.355$, es decir, el precio de mercado de la alcuza integrada será de \$$9.355$.
 
 Para obtener un costo más representativo se quiere seguir indagando en las empresas de retail, esto para obtener un margen promedio.
