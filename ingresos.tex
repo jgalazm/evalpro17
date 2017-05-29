@@ -30,8 +30,6 @@ Las respuestas obtenidas permiten concluir que el perfil general de clientes que
 
 Durante las visitas a tiendas comerciales se investigaron las marcas o fábricas y los países de fabricación de las alcuzas. En el Anexo \ref{MarAlc} se muestra la lista obtenida.
 
-
-
 \begin{itemize}
 \item \textbf{Entrevistas a restaurantes:}
 \end{itemize}
@@ -80,3 +78,146 @@ Se utilizó la venta mensual de alcuzas obtenida mediante de las entrevistas a t
 \caption{Participación de mercado de alcuzas, con datos obtenidos mediante entrevistas a tiendas.}
 \label{PartMercAlcu}
 \end{table}
+
+Con los cálculos anteriores se determinó el porcentaje de ventas de alcuzas tradicionales el cual fue de 88\%, mientras que el porcentaje de venta de alcuzas no tradicionales es de 12\%.
+
+Luego se utilizó la información disponibles de las páginas web de las principales tiendas  comerciales para determinar el promedio de alcuzas no tradicionales a la venta. Se estudió la gama de alcuzas que tienen a la venta las tiendas Falabella, Paris, Homy, Homecenter, Ripley, Casa\&Ideas, Easy, Morph, Kitchen Republic, Capdor, El Volcán, Imahe y Gangas. A partir de dicha información se determinó que el mercado, considerado en su totalidad, ofrece 48 diseños distintos de alcuzas tradicionales y 17 diseños de alcuzas no tradicionales. En el Anexo \ref{PartMerc} se encuentra la totalidad de datos tabulados.
+
+Para estimar la participación del mercado que tendría la alcuza de sistema integrado se considera que esta debe ingresar al mercado y competir con las restantes alcuzas no tradicionales. Además, se supuso que no existe una preferencia significativa entre las distintas alcuzas no tradicionales, es decir, que la preferencia de los consumidores distribuye de forma uniforme entre los distintos tipos de diseños no tradicionales. Con todo lo anterior se concluye que la alcuza de sistema integrado utilizará 1/18  del mercado de alcuzas no tradicionales.
+
+Por lo tanto el porcentaje que ocupará la alcuza integral dentro del mercado total del alcuzas será:
+
+\begin{equation*}
+\text{Porcentaje de participación de alcuza integrada} = 0.12 \times 100 \times \frac{1}{18} = 0.17\%
+\end{equation*}
+
+\subsubsection{Estimación de la demanda en la Región Metropolitana}
+
+Las entrevistas realizadas a tiendas de retail permitieron determinar un periodo de 3 años para realizar el estudio. Además esto  se respalda por Estadísticas del Servicio de Impuestos Interno, las cuales afirman que la vida útil de enseres de vidrio de hoteles y restaurant tiene una duración de 3 años. \footnote{
+Información disponible en \url{http://www.sii.cl/pagina/valores/bienes/tabla_vida_enero.htm} )
+}
+Para estimar la demanda, se consideraron por separado los dos tipos de cliente.
+\paragraph{Demanda de Clientes tipo 1}
+
+Para estudiar la demanda de clientes tipo 1 se propusieron dos metodologías, las cuales se detallan a continuación.
+
+\textbf{Metodología 1:}  En base a información de encuestas a personas.
+
+Para comenzar se realizará una estimación de la cantidad de hogares que existen en la RM.  Para ello se obtuvo un estimado de la población de la región y la cantidad de personas promedio por hogar, como se detalla a continuación.
+
+
+Se obtuvo la población de los años 2017 a 2020 en las proyecciones del INE a partir del CENSO del año 2002. (INE, CHILE: Proyecciones y Estimaciones de Población. 1990-2020. País y Regiones, a partir del CENSO del 2002. p.74. Disponible en: \url{http://palma.ine.cl/demografia/menu/EstadisticasDemograficas/DEMOGRAFIA.pdf})
+
+Se determinó el número de personas por hogar  según el CENSO del año 2002, el cual indica que en la Región Metropolitana este número es aproximadamente 3,75 (INE, CENSO 2002, Volumen II “Personas, viviendas y hogares”, p.138, Disponible en: \url{http://www.ine.cl/canales/usuarios/cedoc_online/censos/pdf/censo_2002_volumen_II.pdf}). Se asumirá que este número es constante.
+
+Con lo anterior se determinó la cantidad de hogares con la siguiente expresión:
+
+\begin{equation*}
+\mbox{N}^o\text{ de hogares} = \frac{\text{población en la Región Metropolitana}}{\text{Cantidad de personas por hogar}}
+\end{equation*}
+
+Luego, a partir, de la encuesta realizada se obtuvo la demanda anual con la pregunta n$^o$ 10 (ver Anexo \ref{PauEnc} y \ref{ResEncPer}). En ella se obtuvo el porcentaje de hogares que compró una alcuza durante el año 2016, con lo cual se obtuvo una estimación de la demanda anual de alcuzas. Dado que la cantidad de alcuzas que compraron durante el año 2016 fue de 16, equivalente al 28\% del total de personas encuestadas. En base a dichos datos se calculó la cantidad de hogares que compraría una alcuza en un año de la siguiente forma:
+
+
+\begin{equation*}
+\mbox{N}^o\mbox{ de hogares que compran} = \mbox{N}^o\mbox{ de hogares}\times 0,28
+\end{equation*}
+
+La expresión anterior representa la demanda total del alcuzas en un año.
+
+Luego la cantidad de hogares que compran la alcuza integrada se determinará utilizando el porcentaje de participación del mercado determinada anteriormente (0,7\%). Los cálculos se muestran a continuación:
+
+\begin{equation*}
+\mbox{N}^o\mbox{ de hogares que compran alcuza integrada} = \mbox{N}^o\mbox{ de hogares que compran}\times 0,007
+\end{equation*}
+
+\textbf{Metodología 2:  Ciclo de vida del producto}
+
+Dado el carácter de innovación del SAI se consideró que el Modelo de Bass era propicio para estudiar el ciclo de vida del producto.
+
+La expresión matemática del modelo discreto es la siguiente:
+\begin{equation*}
+S_t=(P+Q(\frac{Y_{t-1}}{M}))(M-Y_{t-1}).
+\end{equation*}
+Donde $P_t$ es la citada probabilidad, $Y_{t-1} $ en número de compradores servidos hasta $t$ (o número de compradores acumulados en $t-1$) y $P$, $Q$ y $M$ son parámetros. Dado que $Y_0=0$, se cumple que $P_1=P$, es decir, $P$ es el parámetro que recoge el impacto inicial de la innovación, ya que determina la probabilidad de compra cuando todavía no existen usuarios previos; se denomina tasa de innovación. El parámetro $M$ expresa la población de potenciales usuarios del producto y se supone constante. Por lo tanto, $\frac{Y_{t-1}}{M}$ es la fracción de saturación del mercado en el período $t$. El parámetro $Q$ refleja el impacto de los usuarios previos sobre la probabilidad de compra y se denomina tasa de imitación o de difusión.
+
+
+Referencias bibliográficas \url{https://books.google.cl/books?id=aj7wABSD7-MC&pg=PA102&dq=modelo+de+bass+marketing&hl=es&sa=X&ved=0ahUKEwj6tfrf8pPUAhVFvZAKHZaUDP8Q6AEIIDAA#v=onepage&q=modelo%20de%20bass%20marketing&f=false} indican que el valor medio de $P$ está en torno a 0,02; mientras que el valor de $Q$ oscila entre 0,4 y 0,5. Por ello los parámetros utilizados para los cálculos fueron $P=0.02$ y $Q=0.45$ . El parámetro $M$ fue determinado como la cantidad de población que no posee una alcuza en su casa, esto se calculó con el porcentaje de personas que poseen alcuza en su casa (57.9\%, dato obtenido de la encuesta realizada), la predicción de la población de la región para los próximos 3 años y la probabilidad de comprar una alcuza (28\%,dato obtenido de la encuesta realizada). A continuación, se muestra la expresión para calcular el parámetro $M$.
+
+\begin{equation*}
+M=0,579\times 0,28 \times \mbox{Población de la región predicha para dicho año}
+\end{equation*}
+
+\paragraph{Demandas de clientes tipo 2}
+
+Para el segundo tipo de clientes, los restaurantes, se puede comentar lo siguiente. Respecto a ellos las entrevistas señalaron que, en general, los restaurantes que cuentan con más de un local compran las alcuzas directamente a sus proveedores de aceites o estos últimos se los regalan por motivos de marketing. De la totalidad de restaurantes entrevistados que caen en esta categoría, sólo uno se mostró dispuesto a cambiar el producto tradicional por otro basado en el diseño que se está evaluando, sin embargo, señaló que solo lo compraría si el producto es más barato que el utilizado actualmente. Es por esta razón, que con los datos actuales que se tienen se concluyó que esta clase de restaurantes no adquirían este nuevo diseño de alcuza.
+
+Los restaurantes más pequeños entrevistados compran las alcuzas al por mayor. Dos de ellos señalaron que podrían cambiar al diseño que se está evaluando, pero se mostraron reticentes a ello. Se cree que puede existir un tipo de restaurante que esté más interesado en este diseño, pero no se tienen datos de ello, por lo que solo se utiliza la demanda obtenida del primer tipo de cliente por el momento.
+
+\subsubsection{Escalamiento de la demanda a Chile}
+
+Para escalar los datos de la demanda hacia todo Chile se utilizó información acerca de la predicción de la población por cada región del país. Se obtuvo la población de los años 2017 a 2020 en las proyecciones del INE a partir del CENSO del año 2002.
+
+Los cálculos para ambos casos fueron realizados de forma análoga a los mostrados en los incisos anteriores, a diferencia de que la predicción de la población de cada región fue propia de cada sitio.
+
+En las tablas \ref{DemandaChileMet1} y \ref{DemandaChileMet2} se muestran los resultados obtenidos con las Metodologías 1 y 2 correspondientemente. En ellas se puede observar que mediante la Metodología 1 se estimó un total de 28.168 unidades de SAI demandadas, mientras que la Metodología 2 indicó un total de 49.718 unidades.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{DemandaChileMet1.png}
+\caption{Demanda en Chile, metodología 1.}
+\label{DemandaChileMet1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{DemandaChileMet2.png}
+\caption{Demanda en Chile, metodología 2.}
+\label{DemandaChileMet2}
+\end{figure}
+
+\subsubsection{Precios de mercado}
+
+Para determinar el precio de mercado de la alcuza integrada primero se obtiene el precio de venta de las alcuzas no tradicionales en las tiendas de retail. Luego, se estima el costo en adquirir dichas alcuzas a las tiendas. Dicho costo corresponde al precio al cual la empresa productora de alcuzas le vende el producto a las tiendas. A continuación se detalla el cálculo de cada paso.
+
+En primer lugar se obtuvieron los precios de mercado de las alcuzas no tradicionales, esto se realizó a en base a catálogos de internet.  A partir de aquí se decide el precio al que se vendería la alcuza en el retail.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.]{Precios.png}
+\caption{Precios de las alcuzas no tradicionales.}
+\label{Precios}
+\end{figure}
+
+Para determinar el precio al cual se venderá la alcuza, sin disponer de mayor información acerca del mercado y sus cuotas de distribución que los precios en las distintas tiendas, se plantea un problema básico de optimización de la cuota de mercado que se pretende alcanzar:
+\begin{equation*}
+\min \sum(P_i-P)^2
+\end{equation*}
+
+Donde $P_i$ es el precio de una alcuza no tradicional y $P$ es el precio al cual se venderá la alcuza integrada en el mercado. Tomando los datos de la Tabla \ref{Precios} el precio que maximiza la Cuota de Mercado Óptima (CMO) es \$14.175. La distribución de los precios y el óptimo se ve reflejada en la Figura \ref{GraficoPrecio}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.]{GraficoPrecio.png}
+\caption{Determinación Cuota Mercado Óptima.}
+\label{GraficoPrecio}
+\end{figure}
+
+Sin embargo, el modelo planteado debe implementar ciertas restricciones que se deben añadir al modelo una vez que se disponga de mayor información del mercado y además asume ciertos supuestos:
+\begin{itemize}
+\item Consumidores son racionales, demanda uniforme
+\item Competencia no ajusta sus precios
+\item Se debe considerar la elasticidad-precio de la demanda
+\end{itemize}
+
+
+En segundo lugar se determinó el porcentaje de costo sobre ingresos. Para este cálculo se utilizó el estado financiero de la tienda Fababella 2016 ( p102 memoria anual 2016, estados financieras falabella, disponible en: \url{http://www.svs.cl/sitio/aplic/serdoc/ver_sgd.php?s567=15fa2b0ff7051c9c6a3368335e460577VFdwQmVFNTZRVEJOUkVFeVRXcFpNRTFSUFQwPQ==&secuencia=-1&t=1494214250}). En ella se muestra un de actividades ordinaria de 7.898.301.784 y un costo de ventas de 5.180.719.944, con lo que se obtiene que el costo de venta es el 66\% del ingreso por actividades ordinarias. Por lo tanto, el 66\% del precio óptimo de venta en retail es
+\$$14.175 \times 0.66=\$9.355$, es decir, el precio de mercado de la alcuza integrada será de \$$9.355$.
+
+Para obtener un costo más representativo se quiere seguir indagando en las empresas de retail, esto para obtener un margen promedio.
+
+\subsubsection{Volumen a ofertar}
+
+El volumen a ofertar del negocio que se está evaluando es el máximo entre el pedido mínimo que se puede mandar a hacer y la demanda estimada. Esto debido a que si no se hace el pedido mínimo se fabricarían 0 alcuzas, lo que sería equivalente a no producir, por lo que se tiene que producir al menos eso; y porque conviene producir a la demanda estimada si esta es mayor que el pedido mínimo.
+
+Por un lado, se realizó una cotización a Cristalchile por el pedido mínimo que acepta, el cual es de 50.000. Por otro lado, la demanda total de alcuzas estimada mediante las 2 metodologías fue de 28.168 y 49.718 unidades, por lo que el volumen a ofertar será de 50.000 unidades.
